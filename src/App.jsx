@@ -11,12 +11,11 @@ function App() {
   const handleScroll = () => {
     const position = window.pageYOffset;
     setScrollHeight(position);
-    console.log(position);
   }
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
-  },[scrollHeight])
+  }, [scrollHeight]);
   
 
   return (
@@ -26,7 +25,7 @@ function App() {
       <About />
       <Slider />
     </div>
-  )
+  );
 }
 
 export default App

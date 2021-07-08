@@ -1,7 +1,9 @@
 import React from 'react' ;
+import Carousel from '@brainhubeu/react-carousel' ;
+import '@brainhubeu/react-carousel/lib/style.css' ;
+import  Slides from './Slides' ;
 import './Slider.css' ;
-import Carousel from '@brainhubeu/react-carousel';
-import '@brainhubeu/react-carousel/lib/style.css';
+
 
 
 
@@ -20,8 +22,17 @@ const Slider = () => {
                 centered
                 offset={50}
                 itemWidth={400}
-                
+                slides={Slides}
+                breakpoints={{
+                    960: {
+                        slidesPerPage: 1,
+                        arrows: false,
+                        itemWidth: 250,
+                    },
+                }}
             />
+
+
         </div>
     )
 }
