@@ -16,6 +16,7 @@ const Slider = () => {
 
             <Carousel 
                 arrows
+                plugins={['arrows', 'infinite']}
                 slidesPerPage={3}
                 infinite
                 animationSpeed={200}
