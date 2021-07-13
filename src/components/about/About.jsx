@@ -1,6 +1,6 @@
 import React from 'react' ;
 import './About.css' ;
-import removeBg from '../../assets/removebg.png' ;
+import removeBg from '../../assets/removeBg.png' ;
 
 const About = () => {
     return (
