@@ -1,6 +1,5 @@
 import React from 'react' ;
 import './About.css' ;
-// import avatar from '../../assets/avatar.jpg' ;
 import removeBg from '../../assets/removebg.png' ;
 
 const About = () => {
